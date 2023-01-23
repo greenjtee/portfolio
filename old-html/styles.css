@@ -1,0 +1,22 @@
+.name-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.nav-item {
+    margin: 20px;
+    /* border-right: 3px black solid; */
+}
+
+.nav-item-link {
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px black solid;
+}
