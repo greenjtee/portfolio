@@ -99,3 +99,46 @@ body {
   padding-bottom: 20px;
   border-bottom: solid rgb(115, 115, 115);
 }
+
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.work-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.work-left {
+  min-width: 70%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-right {
+  width: 70%;
+}
+
+.work-right-image {
+  width: 70%;
+  margin: 20px;
+}
+
+.work-header-text {
+  font-size: calc(10px + 2vmin);
+  border-bottom: solid rgb(115, 115, 115);
+  padding: 15px;
+}
+
+.work-text {
+  padding: 5px;
+  margin: 50px;
+  font-weight: 300;
+  font-size: calc(8px + 1vmin);
+}
