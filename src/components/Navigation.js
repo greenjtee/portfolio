@@ -1,25 +1,63 @@
+import { NavLink } from "react-router-dom";
+
 export default function Navigation() {
     return (<>
-        <div class="App-name-header">
+        <div className="App-name-header">
             <h1>Tyler Green</h1>
         </div>
-        <div class="App-nav-header">
-            <div class="nav-item">
-                <a class="nav-item-link" href="/">Home</a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-item-link" href="/work">Work Experience</a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-item-link" href="/education">Education</a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-item-link" href="/projects">Projects</a>
-            </div>
-            <div class="nav-item">
-                <a class="nav-item-link" href="/contact">Contact</a>
-            </div>
+        <div className="App-nav-header">
+            {getHome()}
+            {getWorkExperience()}
+            {getEducation()}
+            {getProjects()}
+            {getContact()}
         </div>
     </>
+    );
+}
+
+function getHome() {
+    return (
+        <div className="nav-item">
+            <NavLink exact="true" className={({isActive, isPending }) => isPending ? "nav-item-link" : isActive ? "nav-item-link-active" : "nav-item-link"} to="/">Home</NavLink>
+        </div>
+    );
+}
+
+function getWorkExperience() {
+    return (
+        <div className="nav-item">
+            <NavLink exact="true" className={({isActive, isPending }) => isPending ? "nav-item-link" : isActive ? "nav-item-link-active" : "nav-item-link"} to="/work">Work Experience</NavLink>
+        </div>
+    );
+}
+
+function getEducation() {
+    return (
+        <div className="nav-item">
+            <NavLink exact="true" className={({isActive, isPending }) => isPending ? "nav-item-link" : isActive ? "nav-item-link-active" : "nav-item-link"}
+                to="/education">Education
+            </NavLink>
+        </div>
+    );
+}
+
+function getProjects() {
+    return (
+        <div className="nav-item">
+            <NavLink exact="true" className={({isActive, isPending }) => isPending ? "nav-item-link" : isActive ? "nav-item-link-active" : "nav-item-link"}
+                to="/projects">Projects
+            </NavLink>
+        </div>
+    );
+}
+
+function getContact() {
+    return (
+        <div className="nav-item">
+            <NavLink exact="true" className={({isActive, isPending }) => isPending ? "nav-item-link" : isActive ? "nav-item-link-active" : "nav-item-link"}
+                to="/contact">Contact
+            </NavLink>
+        </div>
     );
 }
