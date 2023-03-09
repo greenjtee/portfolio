@@ -12,7 +12,7 @@ export default function Home() {
                   <li>Running</li>
                   <li>Lifting</li>
                   <li>Video games (Rocket League)</li>
-                  <li>Programming</li>
+                  <li>Server administration</li>
                </ul>
             </div>
             <div className="home-images">
