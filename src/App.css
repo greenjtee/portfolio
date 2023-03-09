@@ -115,6 +115,7 @@ body {
 
 .work-left {
   min-width: 70%;
+  max-width: 70%;
   justify-content: center;
   align-items: center;
   display: flex;

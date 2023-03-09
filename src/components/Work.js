@@ -24,7 +24,23 @@ export default function Work() {
                         ARA (undergraduate research assistant)
                     </div>
                     <div className="work-text">
-                        My role in the ARA program
+                        During my last two semesters of my undergraduate degree,
+                        I was able to take part in the ARA Wireless program.
+                        ARA is:
+                        <blockquote cite="https://arawireless.org/about-ara/">
+                        An at-scale platform for advanced wireless research
+                        to be deployed across the Iowa State University (ISU) campus,
+                        City of Ames (where ISU resides), and surrounding research and producer
+                        farms as well as rural communities in central Iowa, spanning a rural area
+                        with diameter over 60km. It serves as a wireless living lab for smart and
+                        connected rural communities, enabling the research and development of
+                        rural-focused wireless technologies that provide affordable, high-capacity
+                        connectivity to rural communities and industries such as agriculture.
+                        </blockquote>
+                        My role in the ARA program was to develop a deployment/development strategy
+                        for OpenStack, an open-source cloud platform. During the assistantship, I
+                        gained experience working in GitLab CI/CD, a system for building, testing,
+                        and deploying software automatically.
                     </div>
                 </div>
                 <div className="work-right">
