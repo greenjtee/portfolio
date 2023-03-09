@@ -64,23 +64,38 @@ body {
 }
 
 .home-left {
-  max-width: 50%;
+  width: 65%;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
 .home-right {
-  max-width: 50%;
+  max-width: 35%;
+  align-items: center;
 }
 
 .home-image {
   max-width: 200px;
   padding-bottom: 50px;
-  padding-top: 80px;
+  /* padding-top: 80px; */
+  border-bottom: solid rgb(115, 115, 115);
+}
+
+.home-image-no-line {
+  max-width: 200px;
+}
+
+.home-image-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-half-image {
   max-width: 90%;
-  padding: 25px;
+  padding-left: 25px;
   padding-top: 80px;
+  padding-bottom: 20px;
+  border-bottom: solid rgb(115, 115, 115);
 }
