@@ -24,7 +24,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 2vmin);
   border-bottom: rgb(115, 115, 115) 3px dotted;
   border-top: rgb(115, 115, 115) 3px dotted;
 }
@@ -47,13 +47,14 @@ body {
 
 .home {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .home-text {
   padding: 5px;
   margin: 50px;
-  max-width: 50%;
+  font-weight: 300;
+  font-size: calc(8px + 1vmin);
 }
 
 .home-images {
@@ -62,7 +63,24 @@ body {
   justify-content: space-evenly;
 }
 
+.home-left {
+  max-width: 50%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.home-right {
+  max-width: 50%;
+}
+
 .home-image {
   max-width: 200px;
   padding-bottom: 50px;
+  padding-top: 80px;
+}
+
+.home-half-image {
+  max-width: 90%;
+  padding: 25px;
+  padding-top: 80px;
 }
