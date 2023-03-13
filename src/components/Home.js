@@ -34,7 +34,7 @@ export default function Home() {
          </div>
          <div className="home-right">
             <img alt="Aerial view of marathon runners" className="home-half-image" src={marathon_photo}></img>
-            <h4 style={{ "padding-left": "60px" }}>My first half-marathon, I promise I am in this picture somewhere...</h4>
+            <h4 style={{ "paddingLeft": "60px" }}>My first half-marathon, I promise I am in this picture somewhere...</h4>
          </div>
       </div>
    );

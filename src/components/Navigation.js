@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import resume from "../documents/resume.pdf"
 
 export default function Navigation() {
     return (<>
@@ -10,6 +11,9 @@ export default function Navigation() {
             {getWorkExperience()}
             {getEducation()}
             {getProjects()}
+            {getSeniorDesign()}
+            {getReflections()}
+            {getResume()}
             {getContact()}
         </div>
     </>
@@ -47,6 +51,34 @@ function getProjects() {
         <div className="nav-item">
             <NavLink exact="true" className={({isActive, isPending }) => isPending ? "nav-item-link" : isActive ? "nav-item-link-active" : "nav-item-link"}
                 to="/projects">Projects
+            </NavLink>
+        </div>
+    );
+}
+
+function getResume() {
+    return (
+        <div className="nav-item">
+            <a className="nav-item-link" href={resume}>Resume</a>
+        </div>
+    );
+}
+
+function getSeniorDesign() {
+    return (
+        <div className="nav-item">
+            <NavLink exact="true" className={({isActive, isPending }) => isPending ? "nav-item-link" : isActive ? "nav-item-link-active" : "nav-item-link"}
+                to="/senior-design">Senior Design
+            </NavLink>
+        </div>
+    );
+}
+
+function getReflections() {
+    return (
+        <div className="nav-item">
+            <NavLink exact="true" className={({isActive, isPending }) => isPending ? "nav-item-link" : isActive ? "nav-item-link-active" : "nav-item-link"}
+                to="/reflections">Reflections
             </NavLink>
         </div>
     );

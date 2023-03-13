@@ -7,7 +7,7 @@ export default function Work() {
                         John Deere
                     </div>
                     <div className="work-text">
-                        Starting during the Summer of 2020, I have been an intern at John Deere.
+                        Starting during the Summer of 2020, I was an intern at John Deere.
                         My internships consisted of:
                         <ul>
                             <li>Data analytics (2020)</li>
