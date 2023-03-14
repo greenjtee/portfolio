@@ -68,7 +68,6 @@ export default function SeniorDesign() {
             </div>
             <div className="senior-design-image">
                <img className="project-right-image" style={{"height": "auto"}} alt="snntorch logo" src="https://github.com/jeshraghian/snntorch/blob/master/docs/_static/img/snntorch_alpha_scaled.png?raw=true"></img>
-               <img className="project-right-image" style={{"height": "auto"}} alt="snntorch network" src="https://github.com/jeshraghian/snntorch/blob/master/docs/_static/img/spike_excite_alpha_ps2.gif?raw=true"></img>
             </div>
          </div>
          <div className="senior-design-item">
@@ -79,6 +78,9 @@ export default function SeniorDesign() {
                   design and implementation of a Spiking Neural Network in RTL,
                   and assisting documentation of the process.
                </div>
+            </div>
+            <div className="senior-design-image">
+               <img className="project-right-image" style={{"height": "auto"}} alt="snntorch network" src="https://github.com/jeshraghian/snntorch/blob/master/docs/_static/img/spike_excite_alpha_ps2.gif?raw=true"></img>
             </div>
          </div>
          <div className="senior-design-item">

@@ -212,6 +212,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 50%;
+  margin-left: 5%;
 }
 
 .senior-design-image {
