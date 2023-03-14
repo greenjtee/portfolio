@@ -15,7 +15,7 @@ export default function Work() {
                             <li>Embedded software verification (2022)</li>
                         </ul>
                         During my virtual and in-the-office internships, my experiences spanned many
-                        different fields (literally) of engineering. I gained hands on experience with
+                        different fields (literally) of engineering. I gained hands-on experience with
                         hardware testing, as well as in simulation. I also helped develop tools to make employees
                         jobs easier, including a financial data analysis tool and Rally data export tool.
                         During my summer of 2022, I was able to get my first experience in the office since

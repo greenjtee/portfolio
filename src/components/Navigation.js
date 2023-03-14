@@ -9,7 +9,6 @@ export default function Navigation() {
         <div className="App-nav-header">
             {getHome()}
             {getWorkExperience()}
-            {getEducation()}
             {getProjects()}
             {getSeniorDesign()}
             {getReflections()}
@@ -32,16 +31,6 @@ function getWorkExperience() {
     return (
         <div className="nav-item">
             <NavLink exact="true" className={({isActive, isPending }) => isPending ? "nav-item-link" : isActive ? "nav-item-link-active" : "nav-item-link"} to="/work">Work Experience</NavLink>
-        </div>
-    );
-}
-
-function getEducation() {
-    return (
-        <div className="nav-item">
-            <NavLink exact="true" className={({isActive, isPending }) => isPending ? "nav-item-link" : isActive ? "nav-item-link-active" : "nav-item-link"}
-                to="/education">Education
-            </NavLink>
         </div>
     );
 }

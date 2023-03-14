@@ -1,3 +1,6 @@
+import efabless from "../images/efabless.png";
+import sd_role from "../images/sd-role.png";
+
 export default function SeniorDesign() {
    return (
       <div className="senior-design">
@@ -10,7 +13,7 @@ export default function SeniorDesign() {
                   <br />
                   The goal of our project is to better understand the Efabless chip fabrication process.
                   In doing this, we can assist Dr. Duwe in designing and operating a chip design curriculum,
-                  somethink that Iowa State is in need of.
+                  somethink that Iowa State University is in need of.
                   <br />
                   <br />
                   Efabless is a program that Google has funded, allowing open-source hardware designs to be fabricated at no charge
@@ -20,6 +23,9 @@ export default function SeniorDesign() {
                   Since our goal is to develop the documentation and knowledge of digital chip fabrication, this simple but relatively
                   novel (due to the use of a spiking neural network) application is a good starting point.
                </div>
+            </div>
+            <div className="senior-design-image">
+               <img className="project-right-image" style={{"height": "auto"}} alt="efabless logo and caravel harness" src={efabless}></img>
             </div>
          </div>
          <div className="senior-design-item">
@@ -37,11 +43,15 @@ export default function SeniorDesign() {
                   The environment setup, while documented by the Efabless Caravel Harness repository, often leads to various errors to to a combination of
                   host operating system, docker installation, pip, and others. Due to this, I helped our team troubleshoot the environment setup and document how
                   to fix some of these errors, something especially useful for the documentation component of our project to bring new teams up faster.
+                  I also created a CI pipeline in GitLab, allowing us to monitor existing tests to make sure they continue to pass with new changes.
                   <br />
                   <br />
                   There are many tools involved in the Efabless hardware design flow, including GTKWave, Klayout, the Caravel harness, and others.
                   Due to this, my team and I were all involved with gaining a better understanding of these tools and documenting our findings.
                </div>
+            </div>
+            <div className="senior-design-image">
+               <img className="project-right-image" style={{"height": "auto"}} alt="docker, gtkwave, and ci pipeline" src={sd_role}></img>
             </div>
          </div>
          <div className="senior-design-item">
@@ -55,6 +65,10 @@ export default function SeniorDesign() {
                      <li>SNNTorch</li>
                   </ul>
                </div>
+            </div>
+            <div className="senior-design-image">
+               <img className="project-right-image" style={{"height": "auto"}} alt="snntorch logo" src="https://github.com/jeshraghian/snntorch/blob/master/docs/_static/img/snntorch_alpha_scaled.png?raw=true"></img>
+               <img className="project-right-image" style={{"height": "auto"}} alt="snntorch network" src="https://github.com/jeshraghian/snntorch/blob/master/docs/_static/img/spike_excite_alpha_ps2.gif?raw=true"></img>
             </div>
          </div>
          <div className="senior-design-item">
@@ -72,6 +86,7 @@ export default function SeniorDesign() {
                <div className="senior-design-header">Supporting documents</div>
                <div className="senior-design-text">
                   <ul>
+                     <li><a href="https://sdmay23-28.sd.ece.iastate.edu/">Team Website</a></li>
                      <li><a href="https://sdmay23-28.sd.ece.iastate.edu/docs/Final%20Design%20Document%202022.pdf">Final Design Document</a></li>
                      <li><a href="https://sdmay23-28.sd.ece.iastate.edu/docs/Final%20Presentation.pdf">Final Presentation</a></li>
                   </ul>

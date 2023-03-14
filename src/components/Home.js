@@ -14,6 +14,11 @@ export default function Home() {
                   <li>Video games (Rocket League)</li>
                   <li>Server administration</li>
                </ul>
+               My career objectives are to start a career in software development, specifically in embedded systems.
+               I hope that I can have a large impact on the world of open-source software, making software free to
+               use for anyone with an interest. I have been very fortunate to make use of many open-source tools and
+               systems, and I would love to pass along the skills they have helped me develop to new engineers and 
+               enthusiasts.
             </div>
             <div className="home-images">
                <div className="home-image-text">
