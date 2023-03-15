@@ -68,8 +68,8 @@ export default function Reflections() {
          <div className="reflection-text">
             Before starting at Iowa State University, I was eager to start my more technical coursework;
             however, all of my experiences with general electives were excellent. I chose to take "History of the British Empire" (HIST 327)
-            and "History of the American City" (ARCH 321). I am vrey happy with the selections I made and believe that
-            they have supplementied my main courses well.
+            and "History of the American City" (ARCH 321). I am very happy with the selections I made and believe that
+            they have supplemented my main courses well.
             <br />
             <br />
             History of the American City gave an extensive look at the changing architecture of modern cities
@@ -82,9 +82,20 @@ export default function Reflections() {
             helped me consider different engineering decisions and relate them to other areas.
             <br />
             <br />
-            History of the British Empire was a good look at how the British Empire came to power, how they advanced
+            History of the British Empire looked deeply at how the British Empire came to power, how they advanced,
+            what challeneges they faced, and their impact on the rest of the world. How they affected the world is
+            probably the most important aspect of the course since it has the most widespread impact, and can even
+            be seen in our lives. I would relate what I learned in this class to engineering through ethics. We
+            talked a lot about how the British Empire mistreated its colonies, and how the actions it made
+            had little regard for the impact they had on their people and culture. In other engineering courses,
+            we have discussed this same ethical issue in regards to technology and other innovations. I learned that
+            even though something may be good for those who are behind the idea, the main focus should be on those who will
+            be the most directly affected, therefore, a good code of ethics should be kept in mind when making decisions.
             <br />
             <br />
+            These general electives were an important part of my learning experience at Iowa State University.
+            Not only were they interesting courses on their own, they also supplemented my learning in other courses
+            as well.
          </div>
       </div>
    );
