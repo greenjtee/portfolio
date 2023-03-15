@@ -24,7 +24,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(8px + 2vmin);
+  font-size: calc(2px + 2vmin);
   border-bottom: rgb(115, 115, 115) 3px dotted;
   border-top: rgb(115, 115, 115) 3px dotted;
 }
@@ -130,7 +130,7 @@ body {
 
 .work-right-image {
   width: auto;
-  height: 200px;
+  height: calc(80px + 4vmin);
   margin: 40px;
   padding-top: 40px;
 }
@@ -180,7 +180,7 @@ body {
 
 .project-right-image {
   width: auto;
-  height: 200px;
+  height: calc(100px + 20vmin);
   margin: 40px;
   padding-top: 40px;
 }
@@ -232,4 +232,14 @@ body {
 .senior-design-text {
   font-size: calc(8px + 1vmin);
   padding: 15px;
+}
+
+.reflections {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reflection-text {
+  padding: 30px;
 }

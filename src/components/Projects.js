@@ -27,7 +27,7 @@ export default function Projects() {
             </div>
             <div className="project-item">
                 <div className="project-right">
-                    <img className="project-right-image" style={{"width": "auto", "height": "400px"}} alt="a simulation of an ant colony" src={antsim}></img>
+                    <img className="project-right-image" alt="a simulation of an ant colony" src={antsim}></img>
                 </div>
                 <div className="project-left">
                     <div className="project-header-text">
@@ -64,7 +64,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="project-right">
-                    <img className="project-right-image" style={{"width": "auto", "height": "300px"}} alt="a cave simulation" src={caveexplorer}></img>
+                    <img className="project-right-image" alt="a cave simulation" src={caveexplorer}></img>
                 </div>
             </div>
         </div>
